@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+body #pollphincontent div, body #pollphincontent span,
+body #pollphincontent object, body #pollphincontent iframe,
+body #pollphincontent blockquote, body #pollphincontent abbr,
+body #pollphincontent pre, body #pollphincontent address, body #pollphincontent cite, body #pollphincontent code,
+body #pollphincontent del, body #pollphincontent dfn, body #pollphincontent em, body #pollphincontent ins, body #pollphincontent kbd, body #pollphincontent q, body #pollphincontent samp,
+body #pollphincontent h1, body #pollphincontent h2, body #pollphincontent h3, body #pollphincontent h4, body #pollphincontent h5, body #pollphincontent h6,
+body #pollphincontent p, body #pollphincontent a, body #pollphincontent acronym, body #pollphincontent img,
+body #pollphincontent small, body #pollphincontent strong, body #pollphincontent sub, body #pollphincontent sup, body #pollphincontent tt, body #pollphincontent var, body #pollphincontent b, body #pollphincontent i,
+body #pollphincontent dl, body #pollphincontent dt, body #pollphincontent dd, body #pollphincontent ol, body #pollphincontent ul, body #pollphincontent li,
+body #pollphincontent form, body #pollphincontent fieldset, body #pollphincontent label, body #pollphincontent legend, body #pollphincontent select, body #pollphincontent textarea, body #pollphincontent input,
+body #pollphincontent table, body #pollphincontent caption, body #pollphincontent tbody, body #pollphincontent tfoot, body #pollphincontent thead, body #pollphincontent tr, body #pollphincontent th, body #pollphincontent td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-style: normal;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  vertical-align: baseline;
+  background: transparent;
+  line-height: 150%;
+}
+
+body #pollphincontent ol, body #pollphincontent ul {
+  list-style: none;
+}
+
+body #pollphincontent blockquote, body #pollphincontent q {
+  quotes: none;
+}
+
+body #pollphincontent *:focus {
+  outline: 0;
+}
+
+body #pollphincontent table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  caption-side: top;
+}
+
+body #pollphincontent caption, body #pollphincontent th, body #pollphincontent td {
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+body #pollphincontent img {
+  display: block;
+  border: 0;
+}
+
+body #pollphincontent .noborder {
+  border: 0 !important;
+}
+
+body #pollphincontent input[type="submit"], body #pollphincontent label {
+  cursor: pointer;
+}
+
+body #pollphincontent div.box {
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #EFEFEF;
+  background-color: #FFFFFF;
+}
+
+body #pollphincontent div.boxbody h1,
+body #pollphincontent div.boxbody h2,
+body #pollphincontent div.boxbody h3,
+body #pollphincontent div.boxbody h4,
+body #pollphincontent div.boxbody h5,
+body #pollphincontent div.boxbody h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  padding: 10px 10px;
+}
+
+body #pollphincontent div.boxbody .pollhintstitle {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333333;
+  padding: 10px;
+}
+
+body #pollphincontent div.boxbody p {
+  font-size: 12px;
+  color: #333333;
+  padding: 5px 10px;
+}
+
+body #pollphincontent div.box.teaserpoll form#pollVote {
+  padding: 6px 0 0;
+}
+
+body #pollphincontent div.box.teaserpoll form#pollVote label {
+  cursor: pointer;
+  font-size: 12px;
+  display: block;
+  padding-left: 18px;
+  color: #333333;
+}
+
+body #pollphincontent div.box.teaserpoll form#pollVote ul input {
+  float: left;
+  margin-top: 2px
+}
+
+body #pollphincontent div.box.teaserpoll form#pollVote ul li {
+  margin: 0 0 5px 10px;
+  list-style-type: none;
+}
+
+body #pollphincontent div.box .submitinput {
+  padding: 2px 10px;
+}
+
+body #pollphincontent div.box a.link-button,
+body #pollphincontent div.box a.link-button:link,
+body #pollphincontent div.box a.link-button:visited {
+  font-size: 12px;
+  text-decoration: none;
+  padding: 6px 8px 2px 8px;
+  color: #000;
+  background: #ccc;
+  border: 1px solid #ccc;
+}
+
+body #pollphincontent div.box a.link-button:focus,
+body #pollphincontent div.box a.link-button:hover,
+body #pollphincontent div.box a.link-button:active {
+  color: #000;
+  background: #ccc;
+  text-decoration: none;
+}
+
+body #pollphincontent div.box form .buttonrow-R span.submit a,
+body #pollphincontent div.box form .buttonrow-R span.submit a:link,
+body #pollphincontent div.box form .buttonrow-R span.submit a:visited,
+body #pollphincontent div.box form .buttonrow-R span.reset a,
+body #pollphincontent div.box form .buttonrow-R span.reset a:link,
+body #pollphincontent div.box form .buttonrow-R span.reset a:visited {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body #pollphincontent div.box form .buttonrow-R span.submit.preview input,
+body #pollphincontent div.box form .buttonrow-R input.submit.preview,
+body #pollphincontent div.box form .buttonrow-R span.submit.preview a,
+body #pollphincontent div.box form .buttonrow-R span.submit.preview a:link,
+body #pollphincontent div.box form .buttonrow-R span.submit.preview a:visited {
+  border-color: #FAB400;
+  background-color: #FAB400;
+  text-decoration: none;
+}
+
+body #pollphincontent div.box form .buttonrow-R span.submit.preview input:hover,
+body #pollphincontent div.box form .buttonrow-R span.submit.preview input:focus,
+body #pollphincontent div.box form .buttonrow-R span.submit.preview input:active,
+body #pollphincontent div.box form .buttonrow-R span.submit.preview a:hover,
+body #pollphincontent div.box form .buttonrow-R span.submit.preview a:focus,
+body #pollphincontent div.box form .buttonrow-R span.submit.preview a:active {
+  cursor: default !important;
+  text-decoration: none !important;
+  text-decoration: none;
+  border-color: #BEBEBE;
+  background-color: #BEBEBE;
+  -moz-box-shadow: 2px 2px 4px #CCCCCC;
+  -webkit-box-shadow: 3px 3px 5px #CCCCCC;
+}
+
+body #pollphincontent div.box form .buttonrow-R span.reset.preview input:hover,
+body #pollphincontent div.box form .buttonrow-R span.reset.preview input:focus,
+body #pollphincontent div.box form .buttonrow-R span.reset.preview input:active,
+body #pollphincontent div.box form .buttonrow-R span.reset.preview a:hover,
+body #pollphincontent div.box form .buttonrow-R span.reset.preview a:focus,
+body #pollphincontent div.box form .buttonrow-R span.reset.preview a:active {
+  cursor: default;
+  text-decoration: none;
+  border-color: #BEBEBE;
+  background-color: #BEBEBE;
+  -moz-box-shadow: 2px 2px 4px #738488;
+  -webkit-box-shadow: 3px 3px 5px #738488;
+}
+
+body #pollphincontent div.box form .buttonrow-R span.submit input,
+body #pollphincontent div.box form .buttonrow-R input.submit,
+body #pollphincontent div.box form .buttonrow-R span.submit a,
+body #pollphincontent div.box form .buttonrow-R span.submit a:link,
+body #pollphincontent div.box form .buttonrow-R span.submit a:visited {
+  border-color: #F6A101;
+  background-color: #F6A101;
+}
+
+body #pollphincontent div.box form .buttonrow-R {
+  padding: 5px 0 15px;
+  text-align: left;
+}
+
+body #pollphincontent div.box form .buttonrow-R span.submit input,
+body #pollphincontent div.box form .buttonrow-R span.reset input,
+body #pollphincontent div.box form .buttonrow-R input.submit,
+body #pollphincontent div.box form .buttonrow-R input.reset,
+body #pollphincontent div.box form .buttonrow-R span.submit a,
+body #pollphincontent div.box form .buttonrow-R span.reset a,
+body #pollphincontent div.box form .buttonrow-R span.submit a:link,
+body #pollphincontent div.box form .buttonrow-R span.reset a:link,
+body #pollphincontent div.box form .buttonrow-R span.submit a:visited,
+body #pollphincontent div.box form .buttonrow-R span.reset a:visited {
+  margin-right: 5px;
+  margin-bottom: 4px;
+  border: 3px solid;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  padding: 0 10px;
+  color: #fff;
+  -moz-box-shadow: 2px 2px 4px #738488;
+  -webkit-box-shadow: 3px 3px 5px #738488;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+  display: inline-block;
+  min-height: 17px;
+  text-align: center;
+}
+
+body #pollphincontent div.box form .buttonrow-R span.submit a:hover,
+body #pollphincontent div.box form .buttonrow-R span.submit a:focus,
+body #pollphincontent div.box form .buttonrow-R span.submit a:active {
+  text-decoration: underline;
+  -moz-box-shadow: 1px 1px 1px #738488;
+  background-color: #D18901;
+  border-color: #D18901;
+}
+
+body #pollphincontent div.box form .buttonrow-R span.reset a:hover,
+body #pollphincontent div.box form .buttonrow-R span.reset a:focus,
+body #pollphincontent div.box form .buttonrow-R span.reset a:active {
+  text-decoration: underline;
+  -moz-box-shadow: 1px 1px 1px #738488;
+  background-color: #067A8E;
+  border-color: #067A8E;
+}
+
+body #pollphincontent div.box .rich-table-cell {
+  border-bottom: 1px solid #C4C0C9;
+}
+
+body #pollphincontent div.box table.pollresult td .graphoption {
+  background: #FFFFFF;
+  display: inline-block;
+  min-height: 18px;
+  padding: 2px 8px 0;
+}
+
+body #pollphincontent div.box table.pollresult td.rich-table-cell {
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 2px;
+  border-right: 0 solid #FFFFFF;
+}
+
+body #pollphincontent div.box table.pollresult .graphcell {
+  background: url("img-light/bg_graphcell.gif") repeat-x 0 0 #FFFFFF;
+  padding: 0;
+  text-align: right;
+  vertical-align: top;
+  width: 145px;
+}
+
+body #pollphincontent table.pollresult th, div.boxbody table.pollresult td {
+  font-size: 12px;
+  text-align: left;
+}
+
+body #pollphincontent div.boxbody table.pollresult .graphcell .graph {
+  float: right;
+}
+
+body #pollphincontent div.boxbody div.graph {
+  color: #FFFFFF;
+  height: 20px;
+}
+
+body #pollphincontent div.blue {
+  background-color: #BDDCFE;
+}
+
+body #pollphincontent div.highest {
+  background-color: #FAB400;
+}
+
+body #pollphincontent div.boxbody table.pollresult .graphcell .graphnum {
+  display: block;
+  float: right;
+  padding: 2px 3px 0;
+}
+
+/*Umfragedetails / Hinweise fuer Teilnehmer / */
+div.box div.boxbody div.vote-details {
+  background: url("img-light/bg_vote-comments.gif") repeat-x 0 0;
+  border-top: 1px solid #87CEDC;
+  padding-top: 10px;
+}
+
+div.box div.boxbody div.vote-details table.pollresult {
+  width: auto;
+}
+
+body #pollphincontent div.box div.boxfooter .bf-right {
+  padding: 0 10px 5px;
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+body #pollphincontent div.box div.boxfooter .bf-right,
+body #pollphincontent div.box div.boxfooter .bf-right a:link,
+body #pollphincontent div.box div.boxfooter .bf-right a:visited {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background-color: #FFFFFF;
+  display: block;
+}
+
+body #pollphincontent div.box div.boxfooter .bf-right a:link,
+body #pollphincontent div.box div.boxfooter .bf-right a:visited {
+  text-decoration: none;
+  background: url("img-light/icon_morelink.png") no-repeat 1px center;
+  display: block;
+  padding: 4px 0 4px 30px;
+}
+
+body #pollphincontent div.box div.boxfooter .bf-right a:hover,
+body #pollphincontent div.box div.boxfooter .bf-right a:focus,
+body #pollphincontent div.box div.boxfooter .bf-right a:active {
+  color: #000;
+  text-decoration: underline;
+}
+
+div#pollphincontent {
+  clear:both;
+}
+
+#pollphincontent .pollload {
+  background: url("img-light/ajax-loader.gif") no-repeat 10px 10px;
+  display: block;
+  height: 42px;
+  padding: 12px 0 0 52px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+body #pollphincontent img.embeddedImgAnswerOpt {
+  border: 0;
+  padding: 1px;
+  width: 79px;
+  float: left;
+  margin: 0 10px 5px;
+}
+
+body #pollphincontent img.embeddedImgAnswerOptRes {
+  padding: 1px;
+  width: 79px;
+  float: left;
+  margin: 0 10px 5px 0;
+}

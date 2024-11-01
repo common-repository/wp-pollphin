@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import url('default.css');
+
+@media screen {
+  div#pollphincontent {
+    clear: both;
+    width: 50%;
+  }
+}
